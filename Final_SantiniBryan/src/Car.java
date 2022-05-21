@@ -18,20 +18,6 @@ public class Car implements Runnable {
     @Override
     public void run() {
 
-//        TrafficLight light1 = new TrafficLight(1000, "GREEN", "1");
-//        Thread light1Thread = new Thread(light1);
-//        light1Thread.start();
-//
-//
-//        TrafficLight light2 = new TrafficLight(2000, "YELLOW", "2");
-//        Thread light2Thread = new Thread(light2);
-//        light2Thread.start();
-//
-//
-//        TrafficLight light3 = new TrafficLight(3000, "RED", "3");
-//        Thread light3Thread = new Thread(light3);
-//        light3Thread.start();
-
         while (true) {
             yPosition+= speed;
 //            System.out.println("Car # " + this.carNumber + " is at " + this.yPosition + " meters");
